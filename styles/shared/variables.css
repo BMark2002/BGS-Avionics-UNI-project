@@ -1,0 +1,11 @@
+:root {
+  --bg-main: #121c35;
+  --bg-dark: #0d1320;
+  --bg-mode-dark: #141518;
+  --bg-fade: rgba(191, 192, 214, 0.103);
+
+  --font-white: #ffffff;
+  --font-amber: #ff9100;
+  --font-black: #0c0c0c;
+  --font-block: #535353;
+}

@@ -1,0 +1,76 @@
+@import url("variables.css");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  width: 100%;
+  background-color: antiquewhite;
+  color: var(--font-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background-color: var(--bg-mode-dark);
+    color: var(--font-white);
+  }
+}
+
+/*Navbar Styles*/
+
+.navbar {
+  background-color: var(--bg-main);
+}
+
+.navbar-logo {
+  width: 50px;
+  height: auto;
+  padding-right: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--font-white);
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--font-white);
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--font-amber);
+  border: 1px solid var(--font-amber);
+}
+
+.nav-link.money:hover {
+  color: green;
+  border: 1px solid green;
+}
+
+.navbar-toggler-icon {
+  color: var(--font-white);
+}
+
+.drawer-header {
+  background-color: var(--bg-dark);
+}
+
+.drawer-body {
+  background-color: var(--bg-main);
+}
+
+.btn-close {
+  color: var(--font-white);
+}
+
+.nav-item {
+  color: var(--font-white);
+}
