@@ -6,7 +6,7 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: var(--font-white);
   color: var(--font-black);
 }
 
@@ -73,4 +73,26 @@ body {
 
 .nav-item {
   color: var(--font-white);
+}
+
+/*FOOTER*/
+@media (prefers-color-scheme: light) {
+  .footer {
+    background-color: var(--bg-main);
+  }
+}
+
+.footer img {
+  height: 5vw;
+}
+
+.footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer p {
+  color: gray;
+  margin: 0;
+  padding: 0 0 10px;
 }
