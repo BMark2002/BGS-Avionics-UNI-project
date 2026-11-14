@@ -129,11 +129,11 @@
 }
 
 .card-plane.Boeing {
-  background: linear-gradient(to bottom, #e9c583, #fff);
+  background: linear-gradient(to bottom, #e9c583 20%, #fff 80%);
 }
 
 .card-plane.Airbus {
-  background: linear-gradient(to bottom, #abb1bb, #fff);
+  background: linear-gradient(to bottom, #abb1bb 20%, #fff 80%);
 }
 
 .card-body {
@@ -170,22 +170,22 @@
   }
 
   .card-plane.Boeing {
-    background: linear-gradient(to bottom, #e9c5836e 30%, #33333300 80%);
+    background: linear-gradient(to bottom, #e9c5836e 20%, #33333300 80%);
   }
 
   .card-plane.Airbus {
-    background: linear-gradient(to bottom, #8fa4c777 30%, #33333300 80%);
+    background: linear-gradient(to bottom, #8fa4c777 20%, #33333300 80%);
   }
 
   .plane-card-container p {
     color: #dfdfdf;
   }
 
-  .card {
-    border-color: #3333334b;
+  .card-body a {
+    color: var(--font-white);
   }
 
-  .card ul li {
-    border-color: #3333334b;
+  .card-body a:hover {
+    color: var(--font-black);
   }
 }
